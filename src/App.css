@@ -1,0 +1,630 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  /* border: 5px solid red; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  /* position: fixed;
+  background-color: white; */
+}
+.navbar > .logo1 {
+  width: 10%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.navbar > .nav {
+  width: 80%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+.navbar > .nav > .top-nav {
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid red; */
+}
+.navbar > .nav > .bottom-nav {
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid red; */
+}
+.navbar > .logo2 {
+  width: 10%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.top-nav {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 10px 0px 40px;
+}
+.top-nav > a {
+  text-decoration: none;
+}
+
+.top-nav > .btn1 {
+  background-color: darkblue;
+  color: aliceblue;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  border: 0px;
+}
+.top-nav > .btn2 {
+  background-color: silver;
+  color: black;
+  font-weight: bold;
+  border: 0px;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bottom-nav {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 10px 0px 40px;
+}
+
+.bottom-nav > a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.bottom-nav > .btn3,
+.btn4 {
+  background-color: darkblue;
+  color: aliceblue;
+  padding: 5px 5px;
+  font-weight: bold;
+  border: 0px;
+  cursor: pointer;
+}
+.main > .main1 {
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100%;
+  background-image: url(./components/img/img1.jpg);
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: absolute; */
+}
+.main > .main1 > .main2 {
+  /* border: 2px solid white; */
+  height: 90%;
+  width: 40%;
+  /* background: white; */
+  /* margin-top: 80px; */
+  margin-left: 50px;
+}
+.main > .main1 > .main3 {
+  /* border: 2px solid red; */
+  height: 20vh;
+  width: 30%;
+  /* background: white; */
+  /* margin-top: 60px; */
+  margin-left: 25%;
+}
+
+.main > .main1 > .main2 > .main2-sub1 {
+  /* border: 2px solid red; */
+  height: 7%;
+  width: 100%;
+}
+.main > .main1 > .main2 > .main2-sub1 > .btn5 {
+  background-color: darkblue;
+  height: 100%;
+  width: 50%;
+  color: white;
+  /* margin-left: 5px; */
+}
+.main > .main1 > .main2 > .main2-sub1 > .btn6 {
+  background-color: darkblue;
+  height: 100%;
+  width: 50%;
+  color: white;
+}
+
+.main > .main1 > .main2 > .main2-sub2 {
+  /* border: 2px solid blue; */
+  height: 15%;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.main > .main1 > .main2 > .main2-sub3 {
+  /* border: 2px solid brown; */
+  height: 40%;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.main > .main1 > .main2 > .main2-sub3 > .main2-sub3-r1 {
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 55%;
+}
+.main > .main1 > .main2 > .main2-sub3 > .main2-sub3-r1 > input[type="text"] {
+  width: 40vh;
+  height: 15%;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.main
+  > .main1
+  > .main2
+  > .main2-sub3
+  > .main2-sub3-r1
+  > select[type="select1"] {
+  width: 40vh;
+  height: 15%;
+  margin-left: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.main > .main1 > .main2 > .main2-sub3 > .main2-sub3-r2 {
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 45%;
+}
+.main > .main1 > .main2 > .main2-sub3 > .main2-sub3-r2 > input[type="date"] {
+  width: 30vh;
+  height: 15%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.main > .main1 > .main2 > .main2-sub3 > .main2-sub3-r2 > h4 {
+  margin-left: 50px;
+  font-size: medium;
+  font-weight: lighter;
+  margin-top: 5px;
+  color: blue;
+}
+.main
+  > .main1
+  > .main2
+  > .main2-sub3
+  > .main2-sub3-r2
+  > select[type="select1"] {
+  width: 30vh;
+  height: 15%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.main > .main1 > .main2 > .main2-sub2 > h1 {
+  color: darkblue;
+  margin-left: 55px;
+  /* margin: 30px; */
+}
+
+.main > .main1 > .main2 > .main2-sub4 {
+  /* border: 2px solid black; */
+  height: 13%;
+  width: 100%;
+  background-color: white;
+}
+.main > .main1 > .main2 > .main2-sub5 {
+  /* border: 2px solid black; */
+  height: 18%;
+  width: 100%;
+  background-color: white;
+  margin-top: 5px;
+}
+.main > .main1 > .main3 {
+  color: white;
+}
+.main1 > .main2 > .main2-sub5 > h4 > span {
+  color: red;
+}
+.main1 > .main2 > .main2-sub5 > h4 {
+  color: blue;
+}
+.main1 > .main2 > .main2-sub5 > h4 > a {
+  text-decoration: none;
+  color: lightblue;
+}
+.main > .main1 > .main3 {
+  color: black;
+  font-size: larger;
+  text-align: end;
+  /* margin-right: 50px; */
+}
+.info {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100vh;
+}
+.info > .info1 {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.info > .info2 {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 35vh;
+  padding: 90px;
+  /* margin-left: 50px; */
+}
+.info > .info2 > .row1 {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 20vh;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 5px; */
+}
+.info > .info2 > .row1 > .flight {
+  border: 2px solid black;
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info2 > .row1 > .flight:hover {
+  background-color: blue;
+}
+.info > .info2 > .row1 > .hotel {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info2 > .row1 > .hotel:hover {
+  background-color: blue;
+}
+.info > .info2 > .row1 > .hotel > img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.info > .info2 > .row1 > .rail {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info2 > .row1 > .rail:hover {
+  background-color: blue;
+}
+.info > .info2 > .row1 > .rail > img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.info > .info2 > .row1 > .food {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 100px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info2 > .row1 > .food:hover {
+  background-color: blue;
+}
+.info > .info2 > .row1 > .bus {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 100px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info2 > .row1 > .bus:hover {
+  background-color: blue;
+}
+.info > .info2 > .row1 > .bus > img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.info > .info3 {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 35vh;
+}
+.info > .info3 > .row2 {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 20vh;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 5px; */
+}
+.info > .info3 > .row2 > .holiday {
+  border: 2px solid black;
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .holiday:hover {
+  background-color: blue;
+}
+.info > .info3 > .row2 > .holiday {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .holiday:hover {
+  background-color: blue;
+}
+.info > .info3 > .row2 > .holiday > img {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.info > .info3 > .row2 > .ttrain {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 90px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .ttrain:hover {
+  background-color: blue;
+}
+.info > .info3 > .row2 > .ttrain > img {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.info > .info3 > .row2 > .hill {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 100px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .hill:hover {
+  background-color: blue;
+}
+.info > .info3 > .row2 > .hill > img {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.info > .info3 > .row2 > .chart {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 100px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .chart:hover {
+  background-color: blue;
+}
+.info > .info3 > .row2 > .gallery {
+  border: 2px solid black;
+  /* align-items: center; */
+  width: 100px;
+  height: 14vh;
+  border-radius: 100%;
+  cursor: pointer;
+  color: white;
+}
+.info > .info3 > .row2 > .gallery:hover {
+  background-color: blue;
+}
+
+.tour {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 200vh;
+  background-color: rgb(245, 244, 244);
+}
+.tour > .tour1 {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.tour > .tour2 {
+  /* border: 2px solid brown; */
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  padding-left: 10%;
+  margin: 5px;
+}
+.tour > .tour2 > .tour4 {
+  /* border: 2px solid black; */
+  width: 25%;
+  height: 85vh;
+  margin-right: 15px;
+}
+.tour > .tour2 > .tour4 > .img {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 40vh;
+}
+.tour > .tour2 > .tour4 > .para {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 44vh;
+  background-color: white;
+}
+
+.tour > .tour2 > .tour5 {
+  /* border: 2px solid red; */
+  width: 25%;
+  height: 85vh;
+}
+.tour > .tour2 > .tour5 > .img {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 40vh;
+}
+.tour > .tour2 > .tour5 > .para {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 44vh;
+  background-color: white;
+}
+.tour > .tour2 > .tour6 {
+  /* border: 2px solid green; */
+  width: 25%;
+  height: 85vh;
+  margin-left: 15px;
+}
+.tour > .tour2 > .tour6 > .img {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 40vh;
+}
+.tour > .tour2 > .tour6 > .para {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 44vh;
+  background-color: white;
+}
+.tour > .tour3 {
+  /* border: 2px solid orange; */
+  width: 100%;
+  height: 95vh;
+  padding-left: 10%;
+  display: flex;
+}
+.tour > .tour3 > .tour7 {
+  /* border: 2px solid green; */
+  width: 25%;
+  height: 85vh;
+  margin-right: 15px;
+}
+.tour > .tour3 > .tour7 > .img {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 40vh;
+}
+.tour > .tour3 > .tour7 > .para {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 44vh;
+  background-color: white;
+}
+.tour > .tour3 > .tour8 {
+  /* border: 2px solid green; */
+  width: 25%;
+  height: 85vh;
+}
+.tour > .tour3 > .tour8 > .img {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 40vh;
+}
+.tour > .tour3 > .tour8 > .para {
+  /* border: 2px solid gray; */
+  width: 100%;
+  height: 44vh;
+  background-color: white;
+}
+
+.footer > .footer1 {
+  /* border: 2px solid red; */
+  background-color: purple;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+.footer > .footer1 > .para {
+  /* border: 2px solid red; */
+  width: 35%;
+  height: 10vh;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.footer > .footer1 > .icons {
+  /* border: 2px solid yellow; */
+  width: 65%;
+  height: 10vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.footer > .footer2 {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(63, 1, 133, 0.884);
+  display: flex;
+  color: white;
+  /* margin-top: 5px; */
+}
+.footer > .footer2 > .row1 {
+  /* border: 2px solid black; */
+  width: 25%;
+  height: 50vh;
+  padding: 35px;
+  /* text-align: center; */
+}
+.footer > .footer2 > .row2 {
+  /* border: 2px solid brown; */
+  width: 25%;
+  height: 50vh;
+  padding: 35px;
+}
+.footer > .footer2 > .row3 {
+  /* border: 2px solid green; */
+  width: 25%;
+  height: 50vh;
+  padding: 35px;
+}
+.footer > .footer2 > .row4 {
+  /* border: 2px solid yellow; */
+  width: 25%;
+  height: 50vh;
+  padding: 35px;
+}
+.footer > .footer3 {
+  /* border: 2px solid brown; */
+  width: 100%;
+  height: 15vh;
+}
+.footer > .footer3 > .footer-1 {
+  /* border: 2px solid red; */
+  width: 60%;
+  height: 15vh;
+}
